@@ -1,5 +1,8 @@
 # Batch Archives to Folders
 
+[![English](https://img.shields.io/badge/lang-English-blue)](README.md)  
+[![Bahasa Indonesia](https://img.shields.io/badge/lang-Indonesia-red)](README.id.md)
+
 A simple Python script to batch extract multiple archive files (such as ZIP, RAR, and others) into folders with the same name as the archive. This tool automates the extraction process, creating organized folders for each archive and optionally deleting the original archive files after extraction.
 
 ## Features
