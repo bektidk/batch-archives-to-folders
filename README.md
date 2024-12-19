@@ -28,6 +28,7 @@ A simple Python script to batch extract multiple archive files (such as ZIP, RAR
    ```
 
 3. Install any necessary dependencies:
+   
    ```bash
    pip install rarfile
    ```
@@ -50,30 +51,30 @@ A simple Python script to batch extract multiple archive files (such as ZIP, RAR
 
 ## Logging
 
-The script generates a log file `extraction_log.txt` to track extracted files, any skipped files, and any errors encountered during the process.
+- The script generates a log file `extraction_log.txt` to track extracted files, any skipped files, and any errors encountered during the process.
 
 ## Example
 
-Given the following directory structure:
+- Given the following directory structure:
 
-```python
-My Folder/
-├── archive1.zip
-├── archive2.zip
-└── archive3.rar
-```
+   ```python
+   My Folder/
+   ├── archive1.zip
+   ├── archive2.zip
+   └── archive3.rar
+   ```
 
-Running the script will create:
+- Running the script will create:
 
-```python
-My Folder/
-├── archive1/
-│   └── [contents of archive1.zip]
-├── archive2/
-│   └── [contents of archive2.zip]
-├── archive3/
-│   └── [contents of archive3.rar]
-```
+   ```python
+   My Folder/
+   ├── archive1/
+   │   └── [contents of archive1.zip]
+   ├── archive2/
+   │   └── [contents of archive2.zip]
+   ├── archive3/
+   │   └── [contents of archive3.rar]
+   ```
 
 ## Notes
 
